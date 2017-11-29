@@ -76,9 +76,10 @@ h2, .full-width{
 }
 
 iframe {
-    width: 100%;
-    height: 100%;
+    width: 20%;
+    height: 50%;
     position: absolute;
+    float: right;
     background-color: white;
 }
 
