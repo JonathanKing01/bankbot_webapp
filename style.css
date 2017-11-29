@@ -40,7 +40,6 @@ h2, .full-width{
 #right-content {
     align-content: center;
     width: 50%;
-    border-top: 100%;
     float: right;
 }
 
