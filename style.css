@@ -100,11 +100,45 @@ iframe {
         color: white;
     }
 
+    .search {
+        width: 100%;
+        position: relative
+    }
+      
+    .searchTerm {
+        float: left;
+        width: 100%;
+        border: 3px solid blue;
+        padding: 5px;
+        height: 20px;
+        border-radius: 5px;
+        outline: none;
+        color: #9DBFAF;
+    }
+      
+    .searchTerm:focus{
+        color: blue;
+    }
+      
+    .searchButton {
+        position: absolute;  
+        right: -50px;
+        width: 40px;
+        height: 36px;
+        border: 1px solid blue;
+        background: blue;
+        text-align: center;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
     #logo {
         position: relative;
         left: auto;
         min-width: 100px;
-        max-width: 500px;
+        max-width: 252px;
     }
 
     #left-content {
@@ -114,14 +148,14 @@ iframe {
 
     #left-content img {
         width: 100%;
-        max-width: 500px;
+        max-width: 252px;
     }
 
     #right-content {
         width: 100%;
         height: auto;
     }
-    
+
     #content {
         width: 100%;
         height: auto;
