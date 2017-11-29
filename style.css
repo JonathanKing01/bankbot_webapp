@@ -12,8 +12,8 @@ body {
 
 h2, .full-width{
     position: relative;
-    margin: 0 -9999rem;
-    background-color: blue;
+    margin: 100%;
+    background-color: blueviolet;
     color: white;
 }
 
@@ -38,8 +38,7 @@ h2, .full-width{
 #right-content {
     align-content: center;
     width: 50%;
-    height: 100%;
-    float: right;
+    border-top: 40%;
 }
 
 #content {
