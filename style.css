@@ -16,6 +16,7 @@ h2, .full-width{
     padding: .25rem 9999rem;
     background-color: blue;
     color: white;
+    text-align: center;
 }
 
 #logo {
@@ -39,7 +40,8 @@ h2, .full-width{
 #right-content {
     align-content: center;
     width: 50%;
-    border-top: 40%;
+    border-top: 100%;
+    float: right;
 }
 
 #content {
