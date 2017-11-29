@@ -1,10 +1,19 @@
 body {
     font-size: 25px;
+    background-color: black;
 }
 
 #heading {
     text-align: center;
     font-size: 50px;
+}
+
+h2, .full-width{
+    position: relative;
+    margin: 0 -9999rem;
+    background-color: blue;
+    color: white;
+
 }
 
 #logo {
